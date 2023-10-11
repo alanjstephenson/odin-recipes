@@ -1,0 +1,3 @@
+This is the first project in the Odin project that I've been asked to complete. It's meant as a basic project using only htm to structure and website built to shocase recipes. The aim appears to be to use basic html and to use the different types of lists i.e: ordered and unordered in order to create something to showcase what has been learned thus far. 
+
+I will create a recipes website using the basic html as decsribed but I will also attach a .css sheet to style it and make it look much more presentable using knowledge that I've gained from completing the responsive web design from the freeCodeCamp course. 
