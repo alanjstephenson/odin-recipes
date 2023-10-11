@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
     <title>Odins-Recipes</title>
 </head>
 <body>
     <header>
-        <h1>Odins Recipes</h1>
-        <img src="./images/odinLogo.png" height="100" width="auto" alt="odin project logo">
-    </header>
+        <img class="invisible" src="./images/odinLogo.png" height="100" width="auto" alt="odin project logo">
+        <h1 id="homepage-title">Odins Recipes</h1>
+        <a href="./index.html">
+            <img src="./images/odinLogo.png" height="100" width="auto" alt="odin project logo">
+        </a>
+        </header>
     <main id="recipe_list">
         <div class="recipes">
-            <img src="./images/lasagne.jpg" width="300" height="auto" alt="image of homecooked lasagne">
-            <a href="./recipes/lasagne.html">Lasagne</a>
+            <img class="homepage_recipe_img" src="./images/lasagne.jpg" width="300" height="auto" alt="image of homecooked lasagne">
+            <a class="recipe_links" href="./recipes/lasagne.html">Lasagne</a>
         </div>
         <div class="recipes">
-            <img src="./images/pepperoniPizza.jpg" width="300" height="auto" alt="image of homemade pepperoni pizza">
-            <a href="./recipes/pepperonipizza.html">Pepperoni Pizza</a>
+            <img class="homepage_recipe_img" src="./images/pepperoniPizza.jpg" width="300" height="auto" alt="image of homemade pepperoni pizza">
+            <a class="recipe_links" href="./recipes/pepperonipizza.html">Pepperoni Pizza</a>
         </div>
         <div class="recipes">
-            <img src="./images/cottagePie.jpg" width="300" height="auto" alt="image of homecooked cottage pie">
-            <a href="./recipes/cottagepie.html">Cottage Pie</a>
+            <img class="homepage_recipe_img" src="./images/cottagePie.jpg" width="300" height="auto" alt="image of homecooked cottage pie">
+            <a class="recipe_links" href="./recipes/cottagepie.html">Cottage Pie</a>
         </div>
     </main>
 </body>
